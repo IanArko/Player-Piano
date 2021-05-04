@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="ConstraintSystem" num="178" delta="new" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">clk_100</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_clk_100</arg>&apos;, was traced into <arg fmt="%s" index="4">MMCME2_ADV</arg> instance <arg fmt="%s" index="5">adau1761_codec/codec_clock_gen/mmcm_adv_inst</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">MMCME2_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT0</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_adau1761_codec_codec_clock_gen_clkout0 = PERIOD &quot;adau1761_codec_codec_clock_gen_clkout0&quot; TS_clk_100 / 0.48 HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="new" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">clk_100</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_clk_100</arg>&apos;, was traced into <arg fmt="%s" index="4">PLLE2_ADV</arg> instance <arg fmt="%s" index="5">hdmi/PLLE2_BASE_inst</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">PLLE2_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT1</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_hdmi_clk = PERIOD &quot;hdmi_clk&quot; TS_clk_100 HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="new" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">clk_100</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_clk_100</arg>&apos;, was traced into <arg fmt="%s" index="4">PLLE2_ADV</arg> instance <arg fmt="%s" index="5">hdmi/PLLE2_BASE_inst</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">PLLE2_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT2</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_hdmi_clk90 = PERIOD &quot;hdmi_clk90&quot; TS_clk_100 PHASE 3.75 ns HIGH 50%&gt;</arg>
+</msg>
+
+</messages>
+

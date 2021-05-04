@@ -1,0 +1,30 @@
+Command line:
+   wave_capture_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  54769
+
+Sun Dec  8 17:15:38 2019
+
+
+ Elaboration Time: 0.01 sec
+
+ Current Memory Usage: 205.951 Meg
+
+ Total Signals          : 64
+ Total Nets             : 296
+ Total Signal Drivers   : 34
+ Total Blocks           : 12
+ Total Primitive Blocks : 10
+ Total Processes        : 48
+ Total Traceable Variables  : 48
+ Total Scalar Nets and Variables : 740
+Total Line Count : 117
+Total Line Count : 117
+
+ Total Simulation Time: 0.03 sec
+
+ Current Memory Usage: 281.453 Meg
+
+Sun Dec  8 18:32:00 2019
+

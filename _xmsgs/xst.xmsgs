@@ -1,0 +1,1231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="751" delta="old" >"/home/ee108/EE108/final/our_files/song_player.v" Line 45: Redeclaration of ansi port <arg fmt="%s" index="1">clear_ram_pulse</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="old" >"/home/ee108/EE108/final/our_files/magnus_opus.v" Line 47: Redeclaration of ansi port <arg fmt="%s" index="1">song</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/ee108/EE108/final/our_files/magnus_opus.v" Line 91: Assignment to <arg fmt="%s" index="1">done_recording</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/ee108/EE108/final/our_files/final_top.v" Line 170: Assignment to <arg fmt="%s" index="1">line_in_l</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/ee108/EE108/final/our_files/final_top.v" Line 171: Assignment to <arg fmt="%s" index="1">line_in_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"/home/ee108/EE108/final/starter_files/vga_generator.vhd" Line 40: Using initial value <arg fmt="%s" index="1">&apos;1&apos;</arg> for <arg fmt="%s" index="2">hsyncactive</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"/home/ee108/EE108/final/starter_files/vga_generator.vhd" Line 46: Using initial value <arg fmt="%s" index="1">&apos;1&apos;</arg> for <arg fmt="%s" index="2">vsyncactive</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"/home/ee108/EE108/final/our_files/wave_capture.v" Line 62: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">d</arg>&gt;. Formal port size is <arg fmt="%d" index="2">48</arg>-bit while actual signal size is <arg fmt="%d" index="1">1</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"/home/ee108/EE108/final/our_files/wave_capture.v" Line 62: Net &lt;<arg fmt="%s" index="1">notes_to_display</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/ee108/EE108/final/our_files/wave_display.v" Line 17: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"/home/ee108/EE108/final/our_files/display_top.v" Line 58: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">read_address</arg>&gt;. Formal port size is <arg fmt="%d" index="2">10</arg>-bit while actual signal size is <arg fmt="%d" index="1">12</arg>-bit.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pmod</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/ee108/EE108/final/our_files/final_top.v</arg>&quot; line <arg fmt="%s" index="2">156</arg>: Output port &lt;<arg fmt="%s" index="3">line_in_l</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">adau1761_codec</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/ee108/EE108/final/our_files/final_top.v</arg>&quot; line <arg fmt="%s" index="2">156</arg>: Output port &lt;<arg fmt="%s" index="3">line_in_r</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">adau1761_codec</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">leds</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/ee108/EE108/final/our_files/magnus_opus.v</arg>&quot; line <arg fmt="%s" index="2">81</arg>: Output port &lt;<arg fmt="%s" index="3">done_recording</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">lip_synth_master</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/ee108/EE108/final/our_files/song_reader.v</arg>&quot; line <arg fmt="%s" index="2">65</arg>: Output port &lt;<arg fmt="%s" index="3">douta</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">RAM</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/ee108/EE108/final/our_files/composite_note_player.v</arg>&quot; line <arg fmt="%s" index="2">69</arg>: Output port &lt;<arg fmt="%s" index="3">sample_ready</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">SINE_READER</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/ee108/EE108/final/starter_files/adau1761_codec.v</arg>&quot; line <arg fmt="%s" index="2">61</arg>: Output port &lt;<arg fmt="%s" index="3">LOCKED</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">codec_clock_gen</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/ee108/EE108/final/starter_files/i2c.vhd</arg>&quot; line <arg fmt="%s" index="2">58</arg>: Output port &lt;<arg fmt="%s" index="3">outputs</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">Inst_i3c2</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/ee108/EE108/final/starter_files/i2c.vhd</arg>&quot; line <arg fmt="%s" index="2">58</arg>: Output port &lt;<arg fmt="%s" index="3">reg_addr</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">Inst_i3c2</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/ee108/EE108/final/starter_files/i2c.vhd</arg>&quot; line <arg fmt="%s" index="2">58</arg>: Output port &lt;<arg fmt="%s" index="3">reg_data</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">Inst_i3c2</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/ee108/EE108/final/starter_files/i2c.vhd</arg>&quot; line <arg fmt="%s" index="2">58</arg>: Output port &lt;<arg fmt="%s" index="3">reg_write</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">Inst_i3c2</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/ee108/EE108/final/starter_files/i2c.vhd</arg>&quot; line <arg fmt="%s" index="2">58</arg>: Output port &lt;<arg fmt="%s" index="3">debug_scl</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">Inst_i3c2</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/ee108/EE108/final/starter_files/i2c.vhd</arg>&quot; line <arg fmt="%s" index="2">58</arg>: Output port &lt;<arg fmt="%s" index="3">debug_sda</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">Inst_i3c2</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/ee108/EE108/final/starter_files/i2c.vhd</arg>&quot; line <arg fmt="%s" index="2">58</arg>: Output port &lt;<arg fmt="%s" index="3">error</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">Inst_i3c2</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="2999" delta="old" >Signal &apos;<arg fmt="%s" index="1">reg_value_pairs</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">i2c_sender</arg>&apos;, is tied to its initial value.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/ee108/EE108/final/our_files/display_top.v</arg>&quot; line <arg fmt="%s" index="2">35</arg>: Output port &lt;<arg fmt="%s" index="3">douta</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">sample_ram</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">to_display</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">notes_to_display</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="old" > FFs/Latches &lt;<arg fmt="%s" index="1">q</arg>&lt;<arg fmt="%d" index="2">47</arg>:<arg fmt="%d" index="3">0</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">dff_4</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">y&lt;0:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">read_index</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">to_display&lt;6:6&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">to_display&lt;13:13&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">to_display&lt;20:20&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">to_display&lt;27:27&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">to_display&lt;34:34&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">to_display&lt;41:41&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">to_display&lt;48:48&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">to_display&lt;55:55&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="1767" delta="old" >HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">ready_1</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">SINE_READER</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">ready_2</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">SINE_READER</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">ready_1</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">SINE_READER</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">ready_2</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">SINE_READER</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">ready_1</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">SINE_READER</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">ready_2</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">SINE_READER</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">ready_1</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">SINE_READER</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">ready_2</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">SINE_READER</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">ready_1</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">SINE_READER</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">ready_2</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">SINE_READER</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">ready_1</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">SINE_READER</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">ready_2</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">SINE_READER</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">ready_1</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">SINE_READER</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">ready_2</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">SINE_READER</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">ready_1</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">SINE_READER</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">ready_2</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">SINE_READER</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">PREV_NOTES</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">wc</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">g1_out_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">i_convert_444_422</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;r1_out_0&gt; &lt;b1_out_0&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">q_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">note_ff</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">q_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">note_ff</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">q_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">note_ff</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">q_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">note_ff</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">q_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">note_ff</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">q_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">note_ff</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">g1_out_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">i_convert_444_422</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">read_addrb_10</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">sample_ram</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">read_addrb_11</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">sample_ram</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ypos_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">i_vga_generator</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ypos_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">i_vga_generator</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">xpos_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">i_vga_generator</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ypos_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">hdmi</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ypos_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">hdmi</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">xpos_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">hdmi</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">note_ff</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">hold_writer</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="info" file="Xst" num="3231" delta="old" >The small RAM &lt;<arg fmt="%s" index="1">Mram_addr[5]_memory[63][19]_wide_mux_1_OUT</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+</msg>
+
+<msg type="info" file="Xst" num="3226" delta="old" >The RAM &lt;<arg fmt="%s" index="1">Inst_adau1761_configuraiton_data/Mram__n0373</arg>&gt; will be implemented as a BLOCK RAM, absorbing the following register(s):</msg>
+
+<msg type="info" file="Xst" num="3231" delta="old" >The small RAM &lt;<arg fmt="%s" index="1">Mram_reg_value_pairs</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+</msg>
+
+<msg type="info" file="Xst" num="3227" delta="old" >The RAM &lt;<arg fmt="%s" index="1">Mram_RAM</arg>&gt;, combined with &lt;<arg fmt="%s" index="2">Mram_RAM1</arg>&gt;, will be implemented as a BLOCK RAM, absorbing the following register(s):</msg>
+
+<msg type="info" file="Xst" num="3227" delta="old" >The RAM &lt;<arg fmt="%s" index="1">Mram_RAM</arg>&gt;, combined with &lt;<arg fmt="%s" index="2">Mram_RAM1</arg>&gt;, will be implemented as a BLOCK RAM, absorbing the following register(s):</msg>
+
+<msg type="info" file="Xst" num="3226" delta="old" >The RAM &lt;<arg fmt="%s" index="1">Mram_addr[9]_memory[1023][15]_wide_mux_1_OUT</arg>&gt; will be implemented as a BLOCK RAM, absorbing the following register(s):</msg>
+
+<msg type="info" file="Xst" num="3226" delta="old" >The RAM &lt;<arg fmt="%s" index="1">Mram_addr[8]_X_16_o_wide_mux_1_OUT</arg>&gt; will be implemented as a BLOCK RAM, absorbing the following register(s):</msg>
+
+<msg type="info" file="Xst" num="3231" delta="old" >The small RAM &lt;<arg fmt="%s" index="1">Mram_write_enable</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">r1_out_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">convert_444_422</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">b1_out_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">convert_444_422</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">g1_out_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">convert_444_422</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">dout_19</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">frequency_rom</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">sr_out_24</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">i2s_data_interface</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">sr_out_25</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">i2s_data_interface</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">sr_out_26</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">i2s_data_interface</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">sr_out_27</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">i2s_data_interface</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">sr_out_28</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">i2s_data_interface</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">sr_out_29</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">i2s_data_interface</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">sr_out_30</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">i2s_data_interface</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">sr_out_31</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">i2s_data_interface</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">sr_out_32</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">i2s_data_interface</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">sr_out_33</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">i2s_data_interface</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">sr_out_34</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">i2s_data_interface</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">sr_out_35</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">i2s_data_interface</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">sr_out_36</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">i2s_data_interface</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">sr_out_37</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">i2s_data_interface</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">sr_out_38</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">i2s_data_interface</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">sr_out_39</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">i2s_data_interface</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">sr_out_40</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">i2s_data_interface</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">sr_out_41</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">i2s_data_interface</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">sr_out_42</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">i2s_data_interface</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">sr_out_43</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">i2s_data_interface</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">sr_out_44</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">i2s_data_interface</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">sr_out_45</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">i2s_data_interface</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">sr_out_46</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">i2s_data_interface</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">sr_out_47</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">i2s_data_interface</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">sr_out_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">i2s_data_interface</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">sr_out_1</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">i2s_data_interface</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">sr_out_2</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">i2s_data_interface</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">sr_out_3</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">i2s_data_interface</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">sr_out_4</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">i2s_data_interface</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">sr_out_5</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">i2s_data_interface</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">sr_out_6</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">i2s_data_interface</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">sr_out_7</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">i2s_data_interface</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">sr_out_8</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">i2s_data_interface</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">sr_out_9</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">i2s_data_interface</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">sr_out_10</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">i2s_data_interface</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">sr_out_11</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">i2s_data_interface</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">sr_out_12</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">i2s_data_interface</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">sr_out_13</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">i2s_data_interface</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">sr_out_14</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">i2s_data_interface</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">sr_out_15</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">i2s_data_interface</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">sr_out_16</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">i2s_data_interface</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">sr_out_17</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">i2s_data_interface</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">sr_out_18</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">i2s_data_interface</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">sr_out_19</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">i2s_data_interface</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">sr_out_20</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">i2s_data_interface</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">sr_out_21</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">i2s_data_interface</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">sr_out_22</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">i2s_data_interface</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">sr_out_23</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">i2s_data_interface</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">clk_last_quarter_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">i2c_sender</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">tristate_sr_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">i2c_sender</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">address_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">i2c_sender</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">address_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">i2c_sender</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">PLLE2_BASE_inst</arg> in unit <arg fmt="%s" index="2">vga_hdmi</arg> of type <arg fmt="%s" index="3">PLLE2_BASE</arg> has been replaced by <arg fmt="%s" index="4">PLLE2_ADV</arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">clk_last_quarter_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">i2c_sender</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;clk_first_quarter_0&gt; &lt;data_sr_0&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">hdmi/ypos_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">hdmi/ypos_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">hdmi/xpos_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">hdmi/i_hdmi_ddr_output/i_i2c_sender/clk_first_quarter_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">final_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;hdmi/i_hdmi_ddr_output/i_i2c_sender/clk_last_quarter_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">hdmi/i_hdmi_ddr_output/i_i2c_sender/clk_first_quarter_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">final_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;hdmi/i_hdmi_ddr_output/i_i2c_sender/clk_last_quarter_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">hdmi/i_hdmi_ddr_output/i_i2c_sender/clk_first_quarter_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">final_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;hdmi/i_hdmi_ddr_output/i_i2c_sender/clk_last_quarter_4&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">hdmi/i_hdmi_ddr_output/i_i2c_sender/clk_first_quarter_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">final_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;hdmi/i_hdmi_ddr_output/i_i2c_sender/clk_last_quarter_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">hdmi/i_hdmi_ddr_output/i_i2c_sender/clk_first_quarter_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">final_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;hdmi/i_hdmi_ddr_output/i_i2c_sender/clk_last_quarter_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">hdmi/i_hdmi_ddr_output/i_i2c_sender/clk_first_quarter_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">final_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;hdmi/i_hdmi_ddr_output/i_i2c_sender/clk_last_quarter_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">hdmi/i_hdmi_ddr_output/i_i2c_sender/clk_first_quarter_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">final_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;hdmi/i_hdmi_ddr_output/i_i2c_sender/clk_last_quarter_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">hdmi/i_hdmi_ddr_output/i_i2c_sender/clk_first_quarter_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">final_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;hdmi/i_hdmi_ddr_output/i_i2c_sender/clk_last_quarter_4&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">hdmi/i_hdmi_ddr_output/i_i2c_sender/clk_first_quarter_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">final_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;hdmi/i_hdmi_ddr_output/i_i2c_sender/clk_last_quarter_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">hdmi/i_hdmi_ddr_output/i_i2c_sender/clk_first_quarter_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">final_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;hdmi/i_hdmi_ddr_output/i_i2c_sender/clk_last_quarter_6&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">Inst_i3c2/bitcount_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">i2c</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">magnus_opus/song_writer/NOTES_TO_RAM/hold_writer/note_ff/q_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">final_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">magnus_opus/song_writer/NOTES_TO_RAM/hold_writer/note_ff/q_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">final_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">magnus_opus/song_writer/NOTES_TO_RAM/hold_writer/note_ff/q_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">final_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">magnus_opus/song_writer/NOTES_TO_RAM/hold_writer/note_ff/q_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">final_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">magnus_opus/song_writer/NOTES_TO_RAM/hold_writer/note_ff/q_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">final_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">magnus_opus/song_writer/NOTES_TO_RAM/hold_writer/note_ff/q_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">final_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">magnus_opus/note_to_sample/NP0/SINE_READER/ready_1/q_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">magnus_opus/note_to_sample/NP0/SINE_READER/ready_2/q_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">magnus_opus/note_to_sample/NP1/SINE_READER/ready_1/q_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">magnus_opus/note_to_sample/NP1/SINE_READER/ready_2/q_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">magnus_opus/note_to_sample/NP2/SINE_READER/ready_1/q_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">magnus_opus/note_to_sample/NP2/SINE_READER/ready_2/q_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">magnus_opus/note_to_sample/NP3/SINE_READER/ready_1/q_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">magnus_opus/note_to_sample/NP3/SINE_READER/ready_2/q_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">magnus_opus/note_to_sample/NP4/SINE_READER/ready_1/q_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">magnus_opus/note_to_sample/NP4/SINE_READER/ready_2/q_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">magnus_opus/note_to_sample/NP5/SINE_READER/ready_1/q_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">magnus_opus/note_to_sample/NP5/SINE_READER/ready_2/q_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">magnus_opus/note_to_sample/NP6/SINE_READER/ready_1/q_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">magnus_opus/note_to_sample/NP6/SINE_READER/ready_2/q_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">magnus_opus/note_to_sample/NP7/SINE_READER/ready_1/q_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">magnus_opus/note_to_sample/NP7/SINE_READER/ready_2/q_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/audio_r_out_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/audio_r_out_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/audio_r_out_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/audio_r_out_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/audio_r_out_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/audio_r_out_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/audio_r_out_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/audio_r_out_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/audio_r_out_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/audio_r_out_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/audio_r_out_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/audio_r_out_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/audio_r_out_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/audio_r_out_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/audio_r_out_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/audio_r_out_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/audio_r_out_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/audio_r_out_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/audio_r_out_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/audio_r_out_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/audio_r_out_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/audio_r_out_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/audio_r_out_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/audio_r_out_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/audio_l_out_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/audio_l_out_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/audio_l_out_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/audio_l_out_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/audio_l_out_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/audio_l_out_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/audio_l_out_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/audio_l_out_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/audio_l_out_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/audio_l_out_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/audio_l_out_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/audio_l_out_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/audio_l_out_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/audio_l_out_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/audio_l_out_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/audio_l_out_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/audio_l_out_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/audio_l_out_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/audio_l_out_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/audio_l_out_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/audio_l_out_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/audio_l_out_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/audio_l_out_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/audio_l_out_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_126</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_125</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_124</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_123</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_122</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_121</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_120</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_119</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_118</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_117</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_116</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_115</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_114</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_113</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_112</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_111</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_110</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_109</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_108</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_107</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_106</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_105</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_104</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_103</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_102</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_101</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_100</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_99</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_98</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_97</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_96</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_95</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_94</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_93</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_92</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_91</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_90</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_89</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_88</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_87</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_86</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_85</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_84</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_83</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_82</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_81</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_80</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_79</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_78</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_77</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_76</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_75</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_74</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_73</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_72</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_71</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_70</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_69</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_68</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_67</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_66</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_65</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_64</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_63</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_62</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_61</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_60</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_59</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_58</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_57</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_56</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_55</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_54</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_53</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_52</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_51</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_50</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_49</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_48</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_47</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_46</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_45</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_44</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_43</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_42</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_41</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_40</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_39</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_38</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_37</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_36</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_35</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_34</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_33</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_32</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_in_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">adau1761_codec/i2c_interface/Inst_i2s_data_interface/i2s_d_in_last</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">hdmi/i_vga_generator/xpos_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">hdmi/i_vga_generator/ypos_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">hdmi/i_vga_generator/ypos_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">hdmi/i_hdmi_ddr_output/i_i2c_sender/divider_8</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">final_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">hdmi/i_hdmi_ddr_output/i_i2c_sender/clk_last_quarter_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">hdmi/i_hdmi_ddr_output/i_i2c_sender/clk_last_quarter_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">hdmi/i_hdmi_ddr_output/i_i2c_sender/clk_last_quarter_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">hdmi/i_hdmi_ddr_output/i_i2c_sender/clk_last_quarter_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">hdmi/i_hdmi_ddr_output/i_i2c_sender/clk_last_quarter_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">hdmi/i_hdmi_ddr_output/i_i2c_sender/clk_last_quarter_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">hdmi/i_hdmi_ddr_output/i_i2c_sender/clk_last_quarter_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">hdmi/i_hdmi_ddr_output/i_i2c_sender/clk_last_quarter_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">hdmi/i_hdmi_ddr_output/i_i2c_sender/clk_last_quarter_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">hdmi/i_hdmi_ddr_output/i_i2c_sender/clk_last_quarter_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">hdmi/i_hdmi_ddr_output/i_i2c_sender/clk_last_quarter_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">hdmi/i_hdmi_ddr_output/i_i2c_sender/clk_last_quarter_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">hdmi/i_hdmi_ddr_output/i_i2c_sender/clk_last_quarter_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">hdmi/i_hdmi_ddr_output/i_i2c_sender/clk_last_quarter_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">hdmi/i_hdmi_ddr_output/i_i2c_sender/clk_last_quarter_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">hdmi/i_hdmi_ddr_output/i_i2c_sender/clk_last_quarter_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">hdmi/i_hdmi_ddr_output/i_i2c_sender/clk_last_quarter_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">hdmi/i_hdmi_ddr_output/i_i2c_sender/clk_last_quarter_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">hdmi/i_hdmi_ddr_output/i_i2c_sender/clk_last_quarter_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">hdmi/i_hdmi_ddr_output/i_i2c_sender/clk_last_quarter_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">hdmi/i_hdmi_ddr_output/i_i2c_sender/clk_last_quarter_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">hdmi/i_hdmi_ddr_output/i_i2c_sender/clk_last_quarter_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">final_top</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">hdmi/i_convert_444_422/b2_out_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">final_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;hdmi/i_convert_444_422/g2_out_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">hdmi/i_convert_444_422/b2_out_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">final_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;hdmi/i_convert_444_422/b2_out_1&gt; &lt;hdmi/i_convert_444_422/g2_out_2&gt; &lt;hdmi/i_convert_444_422/g2_out_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">hdmi/i_convert_444_422/b2_out_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">final_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;hdmi/i_convert_444_422/g2_out_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">magnus_opus/note_to_sample/SUPER/ready_1/q_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">final_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;sample_reg/q_16&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">hdmi/i_convert_444_422/g1_out_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">final_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;hdmi/i_convert_444_422/b1_out_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">hdmi/i_convert_444_422/g1_out_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">final_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">6 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;hdmi/i_convert_444_422/g1_out_4&gt; &lt;hdmi/i_convert_444_422/b1_out_5&gt; &lt;hdmi/i_convert_444_422/b1_out_4&gt; &lt;hdmi/i_convert_444_422/r1_out_8&gt; &lt;hdmi/i_convert_444_422/r1_out_4&gt; &lt;hdmi/i_convert_444_422/r1_out_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">hdmi/i_convert_444_422/g1_out_8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">final_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">13 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;hdmi/i_convert_444_422/g1_out_5&gt; &lt;hdmi/i_convert_444_422/g1_out_3&gt; &lt;hdmi/i_convert_444_422/g1_out_2&gt; &lt;hdmi/i_convert_444_422/g1_out_1&gt; &lt;hdmi/i_convert_444_422/b1_out_8&gt; &lt;hdmi/i_convert_444_422/b1_out_7&gt; &lt;hdmi/i_convert_444_422/b1_out_3&gt; &lt;hdmi/i_convert_444_422/b1_out_2&gt; &lt;hdmi/i_convert_444_422/b1_out_1&gt; &lt;hdmi/i_convert_444_422/r1_out_7&gt; &lt;hdmi/i_convert_444_422/r1_out_5&gt; &lt;hdmi/i_convert_444_422/r1_out_3&gt; &lt;hdmi/i_convert_444_422/r1_out_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">hdmi/valid</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">final_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;hdmi/i_convert_444_422/d_a&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">hdmi/i_vga_generator/b_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">final_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">6 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;hdmi/i_vga_generator/b_3&gt; &lt;hdmi/i_vga_generator/g_6&gt; &lt;hdmi/i_vga_generator/g_3&gt; &lt;hdmi/i_vga_generator/r_7&gt; &lt;hdmi/i_vga_generator/r_3&gt; &lt;hdmi/i_vga_generator/r_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">hdmi/i_vga_generator/b_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">final_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;hdmi/i_vga_generator/g_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">hdmi/i_vga_generator/b_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">final_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">13 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;hdmi/i_vga_generator/b_6&gt; &lt;hdmi/i_vga_generator/b_2&gt; &lt;hdmi/i_vga_generator/b_1&gt; &lt;hdmi/i_vga_generator/b_0&gt; &lt;hdmi/i_vga_generator/g_7&gt; &lt;hdmi/i_vga_generator/g_4&gt; &lt;hdmi/i_vga_generator/g_2&gt; &lt;hdmi/i_vga_generator/g_1&gt; &lt;hdmi/i_vga_generator/g_0&gt; &lt;hdmi/i_vga_generator/r_6&gt; &lt;hdmi/i_vga_generator/r_4&gt; &lt;hdmi/i_vga_generator/r_2&gt; &lt;hdmi/i_vga_generator/r_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">hdmi/vga_b_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">final_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">7 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;hdmi/vga_g_2&gt; &lt;hdmi/vga_r_3&gt; &lt;hdmi/i_convert_444_422/g_a_3&gt; &lt;hdmi/i_convert_444_422/r_a_3&gt; &lt;hdmi/i_convert_444_422/r_a_0&gt; &lt;hdmi/i_convert_444_422/b_a_4&gt; &lt;hdmi/i_convert_444_422/b_a_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">hdmi/vga_b_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">final_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;hdmi/vga_g_1&gt; &lt;hdmi/i_convert_444_422/b_a_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">hdmi/vga_b_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">final_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">14 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;hdmi/vga_b_2&gt; &lt;hdmi/vga_g_3&gt; &lt;hdmi/vga_g_0&gt; &lt;hdmi/vga_r_2&gt; &lt;hdmi/vga_r_0&gt; &lt;hdmi/i_convert_444_422/g_a_2&gt; &lt;hdmi/i_convert_444_422/g_a_1&gt; &lt;hdmi/i_convert_444_422/g_a_0&gt; &lt;hdmi/i_convert_444_422/r_a_2&gt; &lt;hdmi/i_convert_444_422/r_a_1&gt; &lt;hdmi/i_convert_444_422/b_a_7&gt; &lt;hdmi/i_convert_444_422/b_a_2&gt; &lt;hdmi/i_convert_444_422/b_a_1&gt; &lt;hdmi/i_convert_444_422/b_a_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">hdmi/vga_r_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">final_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;hdmi/i_convert_444_422/r_a_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">hdmi/vga_hs</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">final_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;hdmi/i_convert_444_422/h_a&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">hdmi/i_convert_444_422/r2_out_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">final_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;hdmi/i_convert_444_422/g2_out_4&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">hdmi/vga_vs</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">final_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;hdmi/i_convert_444_422/v_a&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="3203" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">hdmi/i_hdmi_ddr_output/i_i2c_sender/data_sr_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">final_top</arg>&gt; is the opposite to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;hdmi/i_hdmi_ddr_output/i_i2c_sender/tristate_sr_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="3203" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">hdmi/i_hdmi_ddr_output/i_i2c_sender/tristate_sr_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">final_top</arg>&gt; is the opposite to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;hdmi/i_hdmi_ddr_output/i_i2c_sender/clk_last_quarter_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">hdmi/vga_b_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">final_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;hdmi/i_convert_444_422/g_a_7&gt; &lt;hdmi/i_convert_444_422/g_a_4&gt; &lt;hdmi/i_convert_444_422/r_a_6&gt; &lt;hdmi/i_convert_444_422/r_a_4&gt; &lt;hdmi/i_convert_444_422/b_a_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">hdmi/vga_b_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">final_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;hdmi/i_convert_444_422/g_a_6&gt; &lt;hdmi/i_convert_444_422/r_a_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">hdmi/vga_b_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">final_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;hdmi/i_convert_444_422/g_a_5&gt; </arg>
+</msg>
+
+</messages>
+
